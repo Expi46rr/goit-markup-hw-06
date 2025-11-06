@@ -91,6 +91,7 @@ li {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
   margin-top: 48px;
 }
 .button_section_one:hover {
@@ -131,6 +132,7 @@ h3 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   margin-bottom: 72px;
 }
 
@@ -261,12 +263,7 @@ img {
   align-items: center;
 }
 .lisectiontwoposition {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: flex-start;
+  text-align: start;
   width: calc((100% - 72px) / 4);
 }
 
@@ -297,11 +294,7 @@ img {
   justify-content: center;
   row-gap: 48px;
 }
-.pagecontainer {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+
 .main {
   flex-grow: 1;
 }
@@ -335,4 +328,67 @@ img {
 }
 address {
   font-style: normal;
+}
+.sectiontitleposition {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1440;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background\ images.jpg);
+}
+.studiounderline::after {
+  content: '';
+  width: 100%;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
+.studiounderline {
+  font-weight: 500;
+  font-size: 16px;
+  color: #404bbf;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0;
+  display: block;
+  position: relative;
+}
+.imgsectiontwo {
+  background-color: #f4f4fd;
+  display: flex;
+  justify-content: center;
+  height: 112px;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.styleiconsectionthree {
+  width: 40px;
+  height: 40px;
+}
+.styleiconlist {
+  display: flex;
+  gap: 24px;
+  margin: 8px auto 0px;
+  justify-content: center;
+}
+.stylelinksectionthree {
+  background-color: #4d5ae5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.svgicon {
+  fill: #ffffff;
 }
