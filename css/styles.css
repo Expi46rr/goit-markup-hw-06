@@ -353,12 +353,15 @@ address {
 .studiounderline {
   font-weight: 500;
   font-size: 16px;
-  color: #404bbf;
+  color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
   display: block;
   position: relative;
+}
+.studiounderline:hover {
+  color: #404bbf;
 }
 .imgsectiontwo {
   background-color: #f4f4fd;
@@ -389,6 +392,34 @@ address {
   align-items: center;
   border-radius: 50%;
 }
+.stylelinksectionthree:hover {
+  background-color: #404bbf;
+}
+
 .svgicon {
   fill: #ffffff;
+}
+.footerdivs {
+  display: flex;
+  gap: 120px;
+}
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+.sizeicons {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sizeicons:hover {
+  background-color: #31d0aa;
+}
+.style-for-text {
+  color: #ffffff;
+  margin-bottom: 16px;
 }
