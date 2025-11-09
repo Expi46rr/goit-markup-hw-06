@@ -423,3 +423,12 @@ address {
   color: #ffffff;
   margin-bottom: 16px;
 }
+.style-for-text-hidden {
+  position: relative;
+  overflow: hidden;
+}
+.descriptionforimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
