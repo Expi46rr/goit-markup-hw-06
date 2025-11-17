@@ -562,15 +562,14 @@
                 width="24"
                 height="24"
               >
-                <use href="./images/icons.svg#icon-Frame-3">></use>
+                <use href="./images/icons.svg#icon-Frame-3"></use>
               </svg>
             </button>
           </form>
         </div>
       </div>
     </footer>
-    <div class="modal-section">
-      <!-- is-open -->
+    <div class="modal-section is-open">
       <div class="style-for-modal">
         <button class="close-button" type="button">
           <svg class="close-button-svg" width="8" height="8">
@@ -582,56 +581,66 @@
         </p>
         <form class="form" name="form-for-call-back">
           <div class="contact-box">
-            <label class="form-label">Name</label>
+            <label class="form-label" for="user-name">Name</label>
             <div class="form-filling">
-              <input class="form-input" type="text" name="username" />
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                id="user-name"
+              />
               <svg class="form-filling-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
               </svg>
             </div>
           </div>
           <div class="contact-box">
-            <label class="form-label">Phone</label>
+            <label class="form-label" for="telnumber">Phone</label>
             <div class="form-filling">
-              <input class="form-input" type="tel" name="telnumber" />
+              <input
+                class="form-input"
+                type="tel"
+                name="telnumber"
+                id="telnumber"
+              />
               <svg class="form-filling-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
               </svg>
             </div>
           </div>
           <div class="contact-box">
-            <label class="form-label">Email</label>
+            <label class="form-label" for="email">Email</label>
             <div class="form-filling">
-              <input class="form-input" type="email" name="email" />
+              <input class="form-input" type="email" name="email" id="email" />
               <svg class="form-filling-svg" width="18" height="24">
                 <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
               </svg>
             </div>
           </div>
           <div class="textarea-box">
-            <label class="form-label" for="comment">Comment</label>
+            <label class="form-label" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
-              name="comment"
-              placeholder="Text imput"
-              id="comment"
+              name="user-comment"
+              placeholder="Text input"
+              id="user-comment"
             ></textarea>
           </div>
           <div class="radiobutton-checkbox">
             <input
-              class="radiobutton-in-form"
+              class="visually-hidden"
               type="checkbox"
-              name="privacy"
-              value="privacy-policy"
-              id="privacy-policy"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
             />
-            <label class="form-label" for="privacy-policy">
+            <label class="form-label" for="user-privacy">
               <span class="span-for-svg">
                 <svg
                   class="svg-for-checkbox"
                   viewBox="0 0 40 32"
-                  width="10px"
-                  height="8px"
+                  width="10"
+                  height="8"
                 >
                   <use href="./images/icons.svg#icon-click"></use>
                 </svg>
