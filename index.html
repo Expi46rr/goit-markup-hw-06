@@ -543,7 +543,105 @@
             </li>
           </ul>
         </div>
+        <div class="form-footer-box">
+          <p class="style-for-text">Subscribe</p>
+          <form class="form-in-footer" name="footer-form">
+            <label class="form-footer-label"></label>
+            <input
+              class="form-footer-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button class="button-in-footer" type="submit">
+              Subscribe
+              <svg
+                class="img-in-footer-button"
+                viewBox="0 0 32 32"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-Frame-3">></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="modal-section">
+      <!-- is-open -->
+      <div class="style-for-modal">
+        <button class="close-button" type="button">
+          <svg class="close-button-svg" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+        <p class="name-for-form-in-modal">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="form" name="form-for-call-back">
+          <div class="contact-box">
+            <label class="form-label">Name</label>
+            <div class="form-filling">
+              <input class="form-input" type="text" name="username" />
+              <svg class="form-filling-svg" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-box">
+            <label class="form-label">Phone</label>
+            <div class="form-filling">
+              <input class="form-input" type="tel" name="telnumber" />
+              <svg class="form-filling-svg" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="contact-box">
+            <label class="form-label">Email</label>
+            <div class="form-filling">
+              <input class="form-input" type="email" name="email" />
+              <svg class="form-filling-svg" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="textarea-box">
+            <label class="form-label" for="comment">Comment</label>
+            <textarea
+              class="modal-textarea"
+              name="comment"
+              placeholder="Text imput"
+              id="comment"
+            ></textarea>
+          </div>
+          <div class="radiobutton-checkbox">
+            <input
+              class="radiobutton-in-form"
+              type="checkbox"
+              name="privacy"
+              value="privacy-policy"
+              id="privacy-policy"
+            />
+            <label class="form-label" for="privacy-policy">
+              <span class="span-for-svg">
+                <svg
+                  class="svg-for-checkbox"
+                  viewBox="0 0 40 32"
+                  width="10px"
+                  height="8px"
+                >
+                  <use href="./images/icons.svg#icon-click"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="privacy-link">Privacy Policy</a>
+            </label>
+          </div>
+          <button class="button-in-form" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
