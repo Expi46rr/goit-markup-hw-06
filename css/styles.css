@@ -579,7 +579,7 @@ address {
   display: block;
 }
 .contact-box {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .form-label {
   display: block;
@@ -623,7 +623,7 @@ address {
   fill: #4d5ae5;
 }
 .textarea-box {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 .modal-textarea {
   background-color: transparent;
@@ -694,8 +694,6 @@ address {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: flex;
-  justify-content: center;
   color: white;
   min-width: 169px;
   min-height: 56px;
@@ -721,10 +719,8 @@ address {
 .form-footer-label {
 }
 .form-footer-input {
-  background-color: transparent;
   color: #ffffff;
   padding: 8px 0 8px 16px;
-  background-color: #2e2f42;
   border: 1px solid white;
   border-radius: 4px;
   width: 264px;
@@ -733,6 +729,7 @@ address {
   line-height: 2;
   letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
 }
 .form-footer-input::placeholder {
   color: white;
