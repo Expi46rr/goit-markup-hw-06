@@ -29,6 +29,7 @@
             Web
             <span class="studio">Studio</span>
           </a>
+
           <ul class="headerulposition">
             <li>
               <a class="studiounderline" href="./index.html">Studio</a>
@@ -38,7 +39,7 @@
           </ul>
         </nav>
 
-        <address>
+        <address class="adress-in-header">
           <ul class="headeradressposition">
             <li class="syle-adress-email">
               <a class="address" href="mailto:info@devstudio.com">
@@ -52,10 +53,16 @@
             </li>
           </ul>
         </address>
+
+        <button class="button-for-mobile-menu">
+          <svg viewBox="0 0 32 32" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
-      <section class="sectionone sectiontitleposition">
+      <section class="sectionone sectiontitleposition general">
         <div class="container">
           <h1 class="title">Effective Solutions for Your Business</h1>
           <button class="button_section_one" type="button">
@@ -63,7 +70,7 @@
           </button>
         </div>
       </section>
-      <section class="sectointwo sectionpadding">
+      <section class="sectointwo sectionpadding general">
         <div class="container">
           <h2 class="visually-hidden">Title</h2>
           <ul class="ulsectiontwoposition">
@@ -118,7 +125,7 @@
           </ul>
         </div>
       </section>
-      <section class="sectointhree sectionpadding">
+      <section class="sectointhree sectionpadding general">
         <div class="container">
           <h2 class="title_section_three">Our Team</h2>
           <ul class="sectionthreeposition">
@@ -373,7 +380,7 @@
           </ul>
         </div>
       </section>
-      <section class="sectionpadding">
+      <section class="sectionpadding general">
         <div class="container">
           <h2 class="subtitle_sectoin_four">Our Portfolio</h2>
           <ul class="sectionfourposition">
@@ -498,7 +505,7 @@
         </div>
       </section>
     </main>
-    <footer class="mainfooter">
+    <footer class="mainfooter general">
       <div class="container footerdivs">
         <div class="style-for-logo">
           <a class="webfooter" href="./index.html">
@@ -569,7 +576,8 @@
         </div>
       </div>
     </footer>
-    <div class="modal-section is-open">
+    <div class="modal-section">
+      <!-- is-open -->
       <div class="style-for-modal">
         <button class="close-button" type="button">
           <svg class="close-button-svg" width="8" height="8">
@@ -651,6 +659,39 @@
           </div>
           <button class="button-in-form" type="submit">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="modal-menu-for-mobile is-open-mobile-menu">
+      <!-- is-open -->
+
+      <div class="style-for-mobile-modal general">
+        <div class="box-mobile-menu-ul-position">
+          <ul class="mobile-menu-ul-position">
+            <li>
+              <a class="studio-underline-mobile-menu" href="./index.html">
+                Studio
+              </a>
+            </li>
+            <li><a class="mobile-menu_navigation" href="">Portfolio</a></li>
+            <li><a class="mobile-menu_navigation" href="">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="box-adress-mobile-menu">
+          <address class="adress-in-mobile-menu">
+            <ul class="mobile-menu-adress-position">
+              <li class="syle-mobile-menu-adress-email">
+                <a class="address-menu-mobile" href="mailto:info@devstudio.com">
+                  info@devstudio.com
+                </a>
+              </li>
+              <li class="syle-adress-email-menu-mobile">
+                <a class="address-menu-mobile," href="tel:+110001111111">
+                  +11 (000) 111-11-11
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </div>
   </body>
