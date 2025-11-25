@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="borderheader">
+    <header class="borderheader general">
       <div class="container headerposition">
         <nav class="navposition">
           <a class="web" href="./index.html">
@@ -60,7 +60,7 @@
           </svg>
         </button>
       </div>
-      <div class="modal-menu-for-mobile ">
+      <div class="modal-menu-for-mobile">
         <!-- is-open -->
         <button class="button-close-for-mobile-menu">
           <svg viewBox="0 0 32 32" width="8" height="8">
@@ -79,20 +79,23 @@
             <li><a class="mobile-menu_navigation" href="">Contacts</a></li>
           </ul>
         </nav>
-          <address class="adress-in-mobile-menu">
-            <ul class="mobile-menu-adress-position">
-              <li class="syle-mobile-menu-adress-email">
-                <a class="address-email-menu-mobile" href="mailto:info@devstudio.com">
-                  info@devstudio.com
-                </a>
-              </li>
-              <li class="syle-mobile-menu-adress-email">
-                <a class="address-phone-menu-mobile" href="tel:+110001111111">
-                  +11 (000) 111-11-11
-                </a>
-              </li>
-            </ul>
-             <ul class="social-icons-mobile-menu">
+        <address class="adress-in-mobile-menu">
+          <ul class="mobile-menu-adress-position">
+            <li class="syle-mobile-menu-adress-email">
+              <a
+                class="address-email-menu-mobile"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="syle-mobile-menu-adress-email">
+              <a class="address-phone-menu-mobile" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+          <ul class="social-icons-mobile-menu">
             <li class="sizeicons">
               <a class="svgiconfooter" href="">
                 <svg class="svgicon" viewBox="0 0 32 32" width="24" height="24">
@@ -122,9 +125,7 @@
               </a>
             </li>
           </ul>
-          </address>
-         
-        </div>
+        </address>
       </div>
     </header>
 
@@ -192,17 +193,22 @@
           </ul>
         </div>
       </section>
-      <section class="sectointhree sectionpadding general">
+      <section class="sectointhree sectionpadding">
         <div class="container">
           <h2 class="title_section_three">Our Team</h2>
           <ul class="sectionthreeposition">
             <li class="our_team_li_section_three">
               <img
-                src="./images/markg.jpg"
-                alt="Mark Guerrero"
+                src="./images/mobile/mark1x.png"
+                srcset="
+                  ./images/mobile/mark1x.png  1x,
+                  ./images/mobile/mark@2x.png 2x
+                "
                 width="264"
                 height="260"
+                alt="Mark Guerrero"
               />
+
               <div class="ourteamposition">
                 <h3 class="subtitle_sectoin_three">Mark Guerrero</h3>
                 <p class="description_sectiom_three">Product Designer</p>
