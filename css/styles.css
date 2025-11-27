@@ -11,9 +11,7 @@ li {
 }
 
 /* mobile header*/
-.adress-in-header {
-  /* display: none; */
-}
+
 .button-for-mobile-menu {
   display: block;
   border: none;
@@ -47,8 +45,7 @@ li {
   align-content: center;
   align-items: flex-start;
 }
-.sectointwo {
-}
+
 .modal-menu-for-mobile {
   position: fixed;
   width: 100%;
@@ -642,9 +639,7 @@ address {
   display: flex;
   align-items: center;
 }
-.sotialfooter {
-  /* margin-right: 120px; */
-}
+
 .social-icons {
   margin: 0 auto;
   width: 208px;
@@ -945,8 +940,7 @@ address {
   align-items: flex-start;
   gap: 16px;
 }
-.form-footer-label {
-}
+
 .form-footer-input {
   color: #ffffff;
   padding: 8px 0 8px 16px;
@@ -1027,10 +1021,15 @@ address {
     display: flex;
     gap: 24px;
   }
+
   .container {
-    min-width: 768px;
+    max-width: 768px;
   }
   .style-for-logo {
     margin-bottom: 0;
+  }
+  .footerdivs {
+    max-width: 584px;
+    align-items: start;
   }
 }
