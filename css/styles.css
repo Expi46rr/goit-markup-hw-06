@@ -1032,4 +1032,36 @@ address {
     max-width: 584px;
     align-items: start;
   }
+  .title{
+    width: 496px;
+      font-size: 56px;
+  }
+  .borderheader{
+    padding: 0;
+  }
+    .sectionone{
+      padding:112px 0;
+    }
+                .button_section_one {
+                  margin-top: 36px;
+                }
+}
+
+@media screen and (min-width: 1158px) {
+  .container{
+    max-width: 1158px;
+  }
+  .headeradressposition{
+    flex-direction: row;
+    gap:40px;
+  }
+  .headerposition{
+    align-items: center;
+}
+     .sectionone {
+       padding: 188px 0;
+     }
+         .button_section_one{
+          margin-top: 48px;
+         }
 }
