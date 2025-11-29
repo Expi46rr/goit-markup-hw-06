@@ -1059,9 +1059,9 @@ address {
     flex-direction: row;
     gap: 40px;
   }
-  .headerposition {
+  /* .headerposition {
     align-items: center;
-  }
+  } */
   .sectionone {
     padding: 188px 0;
   }
